@@ -1,0 +1,6 @@
+# files to encrypt using git-crypt
+*.key		filter=git-crypt diff=git-crypt
+auth.json	filter=git-crypt diff=git-crypt
+env.php		filter=git-crypt diff=git-crypt
+password.*	filter=git-crypt diff=git-crypt
+
